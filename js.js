@@ -51,5 +51,11 @@
     }
 
     function Inventory() {
-        alert("You're looking in an empty bag");
+        const Inventory = [];
+
+        Inventory.push("Sword");
+        Inventory.push("Spellbook");
+        Inventory.push("Gold");
+
+        alert("Your bag contains:\n" + inventory.join("\n"));
     }
