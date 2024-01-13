@@ -59,3 +59,31 @@
 
         alert("Your bag contains:\n" + inventory.join("\n"));
     }
+
+
+
+
+
+
+
+
+
+    var bagButton = document.getElementById("bag");
+var bagContent = document.getElementById("bagContent");
+
+// Sample bag contents
+var bagContents = ["Wallet", "Keys", "Phone"];
+var isBagVisible = false;
+
+// Function to toggle bag display
+function toggleBagDisplay() {
+  if (isBagVisible) {
+    bagContent.innerHTML = "";
+  } else {
+    bagContent.innerHTML = "In Your Bag: " + bagContents.join(", ");
+  }
+  isBagVisible = !isBagVisible;
+}
+
+// Add an event listener to the bag button
+bagButton.addEventListener("click", toggleBagDisplay);
