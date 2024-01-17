@@ -1,116 +1,97 @@
-  body {
-            background-color: #000;
-            margin: 0;
-            color: #fff;
-        }
-
-        .header {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            flex-direction: column;
-            text-align: center;
-        }
-
-        .title {
-            color: #057013;
-            font-size: 60px;
-            letter-spacing: 20px;
-            font-family: 'Chiller', fantasy;
-            margin: 0;
-        }
-
-        .footer {
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            width: 100%;
-            background-color: #057013;
-            color: #fff;
-            text-align: center;
-            padding: 1px;
-        }
-
-        .start,
-        .inventory {
-            position: fixed;
-            width: 20%;
-            height: 10%;
-            color: #fff;
-            top: 0;
-        }
-
-        .start {
-            left: 0;
-            background-color: #29ca3e;
-            cursor: pointer;
-            transition: background-color 0.3s;
-            border-radius: 5px
-        }
-
-        .inventory {
-            right: 0;
-            background-color: #29ca3e;
-            cursor: pointer;
-            transition: background-color 0.3s;
-            border-radius: 5px
-        }
-
-        .Mana,
-        .Health {
-            width: 200px;
-            height: 15px;
-            border: 1px solid #000;
-            text-align: center;
-            margin-bottom: 10px;
-        }
-
-        .Health {
-            background-color: #29ca3e;
-        }
-
-        .Mana {
-            background-color: #090ccf;
-            margin-bottom: 20px;
-        }
-
-        img {
-            max-width: 100%;
-            height: auto;
-            margin: 10px;
-        }
-
-        .form1 {
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            z-index: 1000;
-        }
-
-        .form1 .p2 {
-            background-color: #29ca3e;
-            color: #00ff00;
-        }
-
-        .fieldset {
-    width: 26%;
-    margin: 0 auto;
-    position: fixed; /* or position: fixed; depending on your needs */
-    top: 90px; /* Adjust the top position to move it up */
-    left: 100;
-    right: 0;
+body {
+    background-color: #000;
+    margin: 0;
+    color: #00ff00;
+                font-family: The Wild Breath of Zelda;
 }
- #container {
-        position: fixed;
-        left: 20px;
-        top: 50%;
-        transform: translateY(-50%);
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-    }
 
-    button {
-        width: 120px;
-    }
+
+.image-container {
+position: relative; /* Set position to relative for positioning */
+left: 430px; /* Adjust the left position */
+top: 0px; /* Adjust the top position */
+}
+
+
+
+.title {
+font-size: 54px; /* Adjust the font size */
+color: #006400; /* Change the text color */
+text-align: center;
+letter-spacing: 20px; /* Align the text to the center */
+margin-bottom: 10px; /* Add space below the title */
+}
+
+.field1 {
+float: left;
+width: 35%; /* Adjust the width as needed */
+font-size: 24px;
+color: #006400;
+text-align: center;
+letter-spacing: 0px;
+margin-bottom: 10px;
+margin-top: 10px;
+}
+
+.field2 {
+float: right;
+width: 35%; /* Adjust the width as needed */
+font-size: 24px;
+color: #006400;
+text-align: center;
+letter-spacing: 0px;
+margin-bottom: 10px;
+margin-top: 10px;
+}
+
+.form1 {
+float: center;
+font-family: The Wild Breath of Zelda;
+width: 75%; /* Adjust the width as needed */
+font-size: 24px;
+color: #006400;
+text-align: center;
+letter-spacing: 0px;
+margin-bottom: 10px;
+margin-top: 10px;
+}
+
+.button1 {
+float: left;
+width: 35%;
+height: 50px; /* Adjust the width as needed */
+font-size: 15px;
+color: #006400;
+background-color: #8B0000;
+text-align: center;
+letter-spacing: 0px;
+margin-bottom: 10px;
+margin-top: 10px;
+}
+
+.button2 {
+float: right;
+width: 35%;
+height: 50px; /* Adjust the width as needed */
+font-size: 15px;
+color: #006400;
+background-color: #8B0000;
+text-align: center;
+letter-spacing: 0px;
+margin-bottom: 10px;
+margin-top: 10px;
+}
+
+.footer {
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 16px; /* Adjust the font size */
+color: #00ff00; /* Text color */
+margin: 0; /* Remove any default margin */
+}
+
+#footer {
+width: 100%; /* Set width to 100% to take up the full width of the container */
+}
+
