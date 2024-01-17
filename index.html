@@ -1,5 +1,6 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
+
 
 <head>
     <meta charset="UTF-8">
@@ -13,61 +14,43 @@
 </head>
 
 <body>
-    <header class="header">
 
-        <h1 class="title">Goblin's Lair</h1>
-        <a href="https://imgbb.com/"><img src="https://i.ibb.co/gdY0wBh/Goblin2.jpg" alt="Goblin2" border="0"></a>
-        <button class="start" onclick="startKillingGoblins()">Start Killing Goblins</button>
-        <button id="bag" class="inventory" onclick="Inventory()">Inventory</button>
-        <p id="bagContent">Inventory Contents</p>
-        <fieldset>
-            <legend>Player Health & Mana</legend>
-            <p class="Health">100</p>
-            <p class="Mana">100</p>
-        </fieldset>
+		<header>
+		<h1 class="title" id="title">Goblins Lair</h1>
+		
+		</header>		
+		<div class="image-container">
+  <a href="https://imgbb.com/"><img src="https://i.ibb.co/gdY0wBh/Goblin2.jpg" alt="Goblin2" border="0"></a>
+</div>
+		
+		<fieldset class="field1" id="field1">
+		<p>
+		In the mysterious realm of fantasy, goblins are intriguing creatures that inhabit shadowy forests and hidden caves. These mischievous beings are characterized by their small stature, sharp features, and cunning nature. Known for their love of trickery and a penchant for crafting clever traps, goblins navigate their environments with nimble agility. Despite their reputation for causing mischief, some tales speak of goblins forming tight-knit communities, each with its own unique traditions and customs. Whether encountered as foes or unexpected allies, the world of goblins adds an element of enchantment and unpredictability to the rich tapestry of fantastical adventures.
+		</p></fieldset>
+		
+		<fieldset class="field2" id="field2"><p class="gameText" id="gameText">You are in the Goblin's Lair!
+		
+		</p></fieldset>
+		
+		<form class="form1" id="form1">
+		<fieldset>
+		<button type="button" class="button1" id="button1" onclick="changeGameText()">Fight!</button>
+		<button type="button" class="button2" id="button2" onclick="changeGameText()">Flee!</button>
+		</fieldset></form>
+		
+		
+		
+		
+		
+		
+		
+    <footer>      
+      <fieldset class="footer" id="footer">
+  <p class="footer">© 2023-2024 Tyler Howell. All rights reserved. <a href="https://new420code.github.io/TylersPage/">Visit Tyler's Page</a></p>
+</fieldset>
 
-        <p id="goblinCount">Goblin Count: 0</p>
-
-        <fieldset>
-            <legend>How will you attack</legend>
-            <label><input id="sword" type="radio" name="sword-magic" value="sword"> Sword</label>
-            <label><input id="magic" type="radio" name="sword-magic" value="magic"> Magic</label>
-        </fieldset>
-        
-    </header>
-
-    <section>
-        <fieldset class="fieldset">
-            <p class="p2"> Embark on an epic journey within the mystical realm<br>
-                of "Goblin's Lair," a text-based RPG adventure set deep<br>
-                within the heart of a mysterious cave. As you delve into<br>
-                the unexplored depths, prepare to confront not just mere<br>
-                hordes but an entire legion of cunning Goblins. Your<br>
-                mettle will be tested, and your strategic prowess shall<br>
-                shine as you navigate through the intricate labyrinthine<br>
-                passages of this subterranean world. Unravel the secrets<br>
-                hidden within the shadows, forge alliances with enigmatic<br>
-                creatures, and face challenges that will push your courage<br>
-                to its limits. Will you emerge victorious, or will the <br>
-                echoes of your valiant quest resonate through the caverns<br>
-                for eternity? The fate of "Goblin's Lair" awaits, and only<br>
-                the boldest adventurers shall triumph in this captivating odyssey.<br></p>
-        </fieldset>
-    </section>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-
-    <footer>
-        <form class="form1" action="https://www.paypal.com/donate" method="post" target="_top">
-            <input type="hidden" name="hosted_button_id" value="J8W5KQ93JH5XG" />
-            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-            <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
-        </form>
-        <p class="footer">© 2024 Tyler Howell. All rights reserved.</p>
     </footer>
+		
+		
 </body>
 </html>
